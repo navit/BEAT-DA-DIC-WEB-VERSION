@@ -1,0 +1,18 @@
+body{
+	float: left;
+}
+#canvas{
+	background: #ccc;
+		
+	float: right;
+	width: 800px;
+	height: 600px;
+	height: auto;
+
+}
+#dicList{
+	position: absolute;
+	top:0;
+	left:0;
+	color: black;
+}

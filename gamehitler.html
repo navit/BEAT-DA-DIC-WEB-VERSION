@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="stylesheet" href="css/stylesheet.css" type="text/css" charset="utf-8" />
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="js/dataStructures.js"></script>
+        <script src="js/newSITE.js"></script>
+        <script src="js/otherFunctions.js"></script>
+        <script src="js/playGameX.js"></script>
+        <script src="js/raphael-min.js"></script>
+        <script src="js/raphael.scale.js"></script>
+        <script src="js/animations/paths.js"></script>
+        <script src="js/animations/dics/kim.js"></script>
+        
+        <script>
+	        
+	        gameCounter = 1;
+	        inGame = true;
+	        console.log (gameCounter);
+	        
+	        if (inGame && gameCounter == 1){
+				console.log ("yyeeesssssssss");
+				playGameOne();				
+			} // inGame && gameCounter == 1
+			
+			thisDic = "hitler";
+	        
+        </script>
+      <!--
+  <script type="text/javascript">
+        	$(document).ready(function(){//sscript to center bottom div and fixe it to the bottom of the page.
+	        	var $browserWidth = $(document).width(),
+		        	$bottomWidth =  $('#bottom').width(),
+		        	bottomLeftValue = ($browserWidth - $bottomWidth)/2;
+		        	$('#bottom').css('left',bottomLeftValue);
+		        	console.log(bottomLeftValue);
+		        $(window).resize(function(){
+			       var $browserWidth = $(document).width(),
+		        	$bottomWidth =  $('#bottom').width(),
+		        	bottomLeftValue = ($browserWidth - $bottomWidth)/2;
+		        	$('#bottom').css('left',bottomLeftValue);
+		        });
+        	});
+        </script>
+-->
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+			<section id="content">
+					
+				<header id="title">
+					<img src="images/logo.png" alt="logo"/> 
+				</header>
+			 <!-- new give- game div -->
+			 	<div id ="game">
+				 	
+						<div id ="round">
+							<h4>navit keren vs. adolf hitler</h4>
+						</div>
+						<div id ="timer">
+							<h5> </h5>
+						</div>
+						
+						<article id="computerContainer">
+							<!--<h2> Adolf Hitler </h2>-->
+							<div id="canvas">
+				
+							</div>
+							<!-- <img class ="dicpic" src = "images/dic1.png "> -->
+							<!-- <h3> score</h3> -->
+						</article>		
+							
+					
+				</div><! closing game-->
+					 
+			</section><! closing content-->
+			
+			<div id="bottom">	
+						<article id="playerContainer">
+							<h2> Navit Keren </h2>
+							<!-- <div id="canvas"></div> -->
+							<!-- <img class ="dicpic" src = "images/dic1.png "> -->
+							<!-- <h3> score</h3> -->
+						</article>
+						
+						<!-- <p> Make Your Move!</p> -->
+						<ul id="tools">
+							<li>
+								<img id ="playRock" src = "images/rock.png ">	
+							</li>
+							<li>
+								<img id ="playPaper" src = "images/paper.png ">
+							</li>
+							<li>
+								<img id ="playScissors" src = "images/scissors.png ">
+							</li>
+						</ul>
+			</div><! closing bottom-->
+	
+    </body>
+</html>
